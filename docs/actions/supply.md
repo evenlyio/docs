@@ -206,6 +206,7 @@ Key | Description | Default
   `skip_upload_images` | Whether to skip uploading images, screenshots not included | `false`
   `skip_upload_screenshots` | Whether to skip uploading SCREENSHOTS | `false`
   `track_promote_to` | The track to promote to. The default available tracks are: production, beta, alpha, internal, rollout | 
+  `version_codes_to_retain` | Allows you to specify version codes that should be retained on your track. If none are specified the track will only contain the version codes of the current upload | 
   `validate_only` | Only validate changes with Google Play rather than actually publish | `false`
   `mapping` | Path to the mapping file to upload | 
   `mapping_paths` | An array of paths to mapping files to upload | 
